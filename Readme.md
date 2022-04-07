@@ -10,9 +10,9 @@ Setup Enviroment
 - prepare android device or emulator
 
 - add file local.properties in folder /Android, and add this command
-    in Windows sdk.dir = C:\\Users\\USERNAME\\AppData\\Local\\Android\\sdk
-    in macOS sdk.dir = /Users/USERNAME/Library/Android/sdk
-    in linux sdk.dir = /home/USERNAME/Android/Sdk
+    * in Windows sdk.dir = C:\\Users\\USERNAME\\AppData\\Local\\Android\\sdk
+    * in macOS sdk.dir = /Users/USERNAME/Library/Android/sdk
+    * in linux sdk.dir = /home/USERNAME/Android/Sdk
 
 - yarn install
 
