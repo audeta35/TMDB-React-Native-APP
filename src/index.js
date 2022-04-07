@@ -7,7 +7,6 @@
  */
 
 
-import { Card, Text } from '@ui-kitten/components';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import {
@@ -18,6 +17,7 @@ import {
   StyleSheet,
   useColorScheme,
   View,
+  Text
 } from 'react-native';
 
 import {
@@ -63,27 +63,13 @@ const Home = () => {
         style={backgroundStyle}>
         {/* <Header /> */}
         <View style={styles?.sectionContainer}>
-          {
+          {/* {
             data ?
               data.map((row, index) => (
-                <View key={index} style={styles.sectionCard}>
-                  <Card header={() => (
-                    <View style={styles?.sectionContainer}>
-                      <Image 
-                        style={styles.tinyLogo}
-                        source={{
-                          uri: `${image_url + row?.backdrop_path}`
-                        }}
-                      />
-                      <Text category='h6'>{row?.original_title}</Text>
-                      <Text category='s1'>{row?.overview}</Text>
-                    </View>
-                  )}>
-                  </Card>
-                </View>
+                
               ))
               : <Text>Data Not Found</Text>
-          }
+          } */}
         </View>
       </ScrollView>
     </SafeAreaView>
