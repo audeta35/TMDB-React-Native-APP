@@ -1,0 +1,12 @@
+Populix' case study for Audeta:
+
+Create Movie Apps using this API https://developers.themoviedb.org/4 for getting data (please sign up before using the api) and make sure you build this project with React Native, Redux.
+       
+Evaluation Criteria:
+- Please submit your assignment with detailed instructions on how to run them. We also accept code submissions that are hosted from github with a good Readme.md
+- Structure Project and Your code. Make it simple and easy to read.
+- if you can add unit test will be a plus.
+
+Please submit the assignment within 5 days from now, the sooner the better.
+
+Thank you and good luck!
