@@ -19,3 +19,7 @@ Setup Enviroment
 How to run app
 
 - yarn run android && yarn start
+
+
+https://user-images.githubusercontent.com/55451674/162364461-357de67f-2d37-441d-b2e6-49441012bd7a.mp4
+
