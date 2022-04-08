@@ -1,13 +1,16 @@
-const app = (action, state) => {
-    switch (action?.type) {
-        case 'IS_LOADING_STATE':
-            return {
-                ...state,
-                isLoading: action.payload,
+const initialState = {
+    isLoading: true
+}
+
+const appReducer = (state = initialState, { type, payload }) => {
+    switch (type) {
+        case "IS_LOADING_STATE":
+            return { 
+                isLoading: payload
             }
         default:
             return state
     }
 }
 
-export default app
+export default appReducer

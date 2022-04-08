@@ -1,9 +1,7 @@
 import React from 'react'
 
 // UI UX
-import * as eva from '@eva-design/eva';
-import { ApplicationProvider, Layout, Text } from '@ui-kitten/components'
-
+import { Provider as PaperProvider } from 'react-native-paper';
 // Redux third party
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
@@ -17,10 +15,10 @@ export default function App() {
   const store = createStore(appsReducer)
   
   return (
-    <ApplicationProvider {...eva} theme={eva.light}>
+    <PaperProvider>
       <Provider store={store}>
         <Home />
       </Provider>
-    </ApplicationProvider>
+    </PaperProvider>
   )
 }
